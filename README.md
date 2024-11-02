@@ -40,9 +40,35 @@ A key insight was that the Basic subscription type ranked highest in  total reve
  ![](SubbyRev.png)
 
  **B. Count of Active vs. Canceled Subscriptions:**
-This analysis of the count of active versus canceled subscriptions provides actionable      insights into customer behavior. Leaving the percentage of Active (False) subscription to be 55.09% and Canceled (True) subscription be 44.91%.
+This analysis of the count of active versus canceled subscriptions provides actionable insights into customer behavior. 
 
-![](
+![](CountvsStatus.png)
+
+**C. Revenue by Region:**
+The analysis reveals that the East Region is the highest revenue generating region with a total revenue of 16,958,763m. This indicates potential areas for further investment and targeted marketing to capitalize on this trend.
+
+![](RegionbyRev.png)
+
+**D. Region by Subscription Type:**
+The analysis shows that both the East and North regions have a notable presence of Basic subscriptions, indicating that these areas may be more price sensitive or prefer budget friendly options. This presents an opportunity for targeted marketing campaigns aimed at upselling Premium subscriptions in these regions.
+
+![](Regionbysub.png)
+
+## Using Excel Formulas
+
+- **Average subscription duration:** Using the Average function, I was able to retrieve the average subscription duration to be 365 days.
+
+                                          =AVERAGE(I2:I33788)
+
+-  **The most popular subscription type:** I retrieved the most popular subscription type using the **COUNTIF** function and the subscription Type column. **Basic** is the most popular subscription type with 16921 subscriptions.
+
+                                           =COUNTIF(D2:D33788, L7)
+ 
+
+
+
+
+
 
 
       
