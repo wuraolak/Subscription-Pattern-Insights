@@ -128,14 +128,77 @@ This is a quick overview of some SQL commands used to retrieve the subscription 
 ## Power BI Subscription Pattern Dashboard
 This visual showcases my Power BI dashboard analyzing subscription patterns.
 
-**Technologies Used**
+**A. Technologies Used**
 - Power BI
 - DAX
 - Slicers
 
-**Dashboard Preview**
+**B. Dashboard Preview and Analysis**
 
 ![](PowerBIDashboard.png)
+
+**A. Total Revenue Over Time:** As shown in the **card**, the total revenue generated was **67.5M**.
+
+**B. Revenue by Subscription Type:** The Basic subscription type generates **33.78M**(50%) of the total revenue over time.
+
+**C. Subscription type by Subscriber Count:** The treemap highlights that while the Standard has fewer subscribers, its higher price point significantly impacts revenue. This suggests that focusing on upselling may yield more revenue.
+
+**D. Revenue by Subscription Status:** The analysis reveals False status has 55.09% revenue while canceled subscription status generated 44.91% Revenue.
+
+**E. Revenue by Region:** The East region has the highest revenue of 16.96m. This is also the same region with the highest revenue in the Basic Subscription pattern. That indicates all users in the east subscribe only to the Basic subscription.
+
+**F. Geographical Distribution:** Our popular subscription types are from the Northeast region, accounting for 17m in East and 16.8m in North (50%) of our total users. The matrix table indicates a strong concentration of users in the Northeast subscribing to the Basic subscription type. We should consider localized marketing efforts to tap into the other regions with higher subscription types.
+
+--------
+
+## Summary and Conclusion
+
+### Summary:
+
+In this portfolio, I conducted a comprehensive analysis of subscription data to uncover key insights into customer behavior and revenue generation. Utilizing various tools including Excel for data cleaning and analysis, SQL for querying, and Power BI for visualization, I aimed to provide a detailed understanding of subscription patterns.
+The dataset examined includes critical attributes such as customer names, subscription types, subscription start and end dates, region, cancellation status, and revenue figures. 
+
+**Key findings from the analysis include:**
+
+- **Revenue Generation**: The **Basic** subscription tier emerged as the highest revenue generator, contributing approximately **50%** of the total revenue, which highlights its popularity among customers.
+  
+- **Customer Retention**: A substantial segment of subscriptions remains active, with **55.09%** active and **44.91%** canceled. This ratio indicates the potential for improving retention strategies to lower cancellation rates.
+
+- **Regional Insights**: The **East** region stands out as the top performer in revenue generation, with nearly 17 million earned, underscoring a strategic area for targeted marketing and investment. The concentration of Basic subscriptions in this area suggests a distinct preference for budget-friendly options.
+
+- **Duration**: The average subscription duration was determined to be 365 days, indicating a solid engagement level among subscribers with long-term plans. 
+
+- **Active vs. Canceled Subscriptions**: The analysis introduced a more granular view of subscription status, revealing patterns that can inform customer retention strategies and targeted communications.
+
+### Conclusion
+
+- The insights derived from the subscription data analysis reveal significant opportunities for enhancing customer engagement and revenue optimization. The popularity of the Basic subscription plan underscores the need for tailored marketing strategies, especially in regions with high concentrations of budget-conscious customers. 
+
+- To improve subscription retention, I recommend implementing personalized retention programs that address the reasons behind cancellations, focusing on customer feedback, and enhancing customer satisfaction.
+
+- Additionally, the strong performance of the East region suggests that localized marketing efforts could effectively cultivate customer loyalty and potentially encourage upgrades to higher-priced subscription tiers. 
+
+- Overall, this analysis not only illustrates my analytical skills but also emphasizes the value of data-driven decision-making in maximizing customer satisfaction and driving business growth. The insights gained can be leveraged to inform strategic initiatives aimed at improving the overall subscription experience. 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
