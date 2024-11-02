@@ -21,7 +21,7 @@ In this portfolio, I analyzed subscription data to derive insights on customer b
 - SQL
 - Power BI
 
-  ------
+-------
 
 ## Data Cleaning in Excel
 
@@ -64,7 +64,7 @@ The analysis shows that both the East and North regions have a notable presence 
 
                                            =COUNTIF(D2:D33788, L7)
 
-   ---------
+----------
 
 ## SQL Queries
 This is a quick overview of some SQL commands used to retrieve the subscription trends.
