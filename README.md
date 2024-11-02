@@ -37,6 +37,16 @@ In this portfolio, I analyzed subscription data to derive insights on customer b
 **A. Total Revenue by Subscription Type**:
 A key insight was that the Basic subscription type ranked highest in  total revenue generation compared to other subscription tiers, such as Premium and standard.
 
+ ![](SubbyRev.png)
+
+ **B. Count of Active vs. Canceled Subscriptions:**
+This analysis of the count of active versus canceled subscriptions provides actionable      insights into customer behavior. Leaving the percentage of Active (False) subscription to be 55.09% and Canceled (True) subscription be 44.91%.
+
+![](
+
+
+      
+
 
 
 
