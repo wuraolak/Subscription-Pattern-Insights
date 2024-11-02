@@ -63,7 +63,13 @@ The analysis shows that both the East and North regions have a notable presence 
 -  **The most popular subscription type:** I retrieved the most popular subscription type using the **COUNTIF** function and the subscription Type column. **Basic** is the most popular subscription type with 16921 subscriptions.
 
                                            =COUNTIF(D2:D33788, L7)
- 
+
+   ---------
+
+## SQL Queries
+This is a quick overview of some SQL commands used to retrieve the subscription trends.
+
+
 
 
 
