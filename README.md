@@ -69,6 +69,86 @@ The analysis shows that both the East and North regions have a notable presence 
 ## SQL Queries
 This is a quick overview of some SQL commands used to retrieve the subscription trends.
 
+**A. This query retrieves the average subscription duration for all customers**.
+```sql
+       SELECT AVG(DATEDIFF(DAY, SubscriptionStart, SubscriptionEnd)) 
+         AS AverageSubDuration
+        FROM [dbo].[CustomerData]
+        WHERE Canceled = 'FALSE';
+```
+
+**B. Customers with subscriptions longer than 12 months.**
+
+```sql                                   
+      SELECT CustomerID
+             SubscriptionType,
+	            SubscriptionStart,
+	            SubscriptionEnd
+      FROM [dbo].[CustomerData]
+      WHERE DATEDIFF(MONTH, SubscriptionEnd, SubscriptionStart)
+      > 365
+      AND Canceled = 'FALSE'
+```
+
+
+**C. This query returns the total revenue by subscription type.**
+
+```sql
+      SELECT SubscriptionType,
+      SUM(Revenue) AS TotalRevenue
+      FROM [dbo].[CustomerData]
+      GROUP BY SubscriptionType
+      ORDER BY TotalRevenue DESC;
+```
+
+**D. This query retrieves the top 3 regions by subscription Cancellation, which are South, North ,and West.**
+
+```sql
+      SELECT TOP 3 Region,
+      COUNT(*) AS CancellationCount
+      FROM [dbo].[CustomerData]
+         WHERE 
+      Canceled = 'TRUE'
+      GROUP BY Region
+      ORDER BY CancellationCount DESC
+```
+
+**E. This retrieves the total number of Active and Canceled subscriptions.**
+
+```sql
+      SELECT Canceled,
+      COUNT(*) AS TotalCount
+      FROM [dbo].[CustomerData]
+      WHERE Canceled IN ('FALSE', 'TRUE')
+      GROUP BY Canceled;
+```
+
+-----------
+
+## Power BI Subscription Pattern Dashboard
+This visual showcases my Power BI dashboard analyzing subscription patterns.
+
+**Technologies Used**
+- Power BI
+- DAX
+- Slicers
+
+**Dashboard Preview**
+
+![](PowerBIDashboard.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
