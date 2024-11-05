@@ -1,4 +1,5 @@
-# Subscription Pattern
+# Subscription Pattern Insights
+
 
 ## Introduction
 
