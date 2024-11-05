@@ -1,4 +1,4 @@
-# Subscription Pattern Analysis
+# Subscription Pattern
 
 ## Introduction
 
