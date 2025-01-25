@@ -179,7 +179,10 @@ The dataset examined includes critical attributes such as customer names, subscr
 
 - Additionally, the strong performance of the East region suggests that localized marketing efforts could effectively cultivate customer loyalty and potentially encourage upgrades to higher-priced subscription tiers. 
 
-- Overall, this analysis not only illustrates my analytical skills but also emphasizes the value of data-driven decision-making in maximizing customer satisfaction and driving business growth. The insights gained can be leveraged to inform strategic initiatives aimed at improving the overall subscription experience. 
+- Overall, this analysis not only illustrates my analytical skills but also emphasizes the value of data-driven decision-making in maximizing customer satisfaction and driving business growth. The insights gained can be leveraged to inform strategic initiatives aimed at improving the overall subscription experience.
+
+
+# Thank You
 
 
  
